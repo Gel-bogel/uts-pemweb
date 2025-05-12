@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - YBMPLN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="ybm-logo2.png" alt="YBMPLN Logo">
+                <h1>Yayasan Baitul Maal PLN</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Kami siap membantu dan menjawab pertanyaan Anda</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Gedung PLN, Jl. Trunojoyo Blok M I No.135, Kebayoran Baru, Jakarta Selatan 12160</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>(021) 7251234</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@ybmpln.org</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 08.00 - 16.00 WIB</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507824!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390897e759%3A0x6e45e3a7a3b7f8e8!2sPLN%20(Persero)!5e0!3m2!1sid!2sid!4v1634026787899!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <select id="subject" name="subject">
+                                <option value="info">Informasi Umum</option>
+                                <option value="donation">Informasi Donasi</option>
+                                <option value="program">Informasi Program</option>
+                                <option value="partnership">Kerjasama</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="branches">
+        <div class="container">
+            <h3>Kantor Cabang Kami</h3>
+            <div class="branches-grid">
+                <div class="branch-card">
+                    <h4>Jakarta</h4>
+                    <p>Gedung PLN, Jl. Trunojoyo Blok M I No.135, Kebayoran Baru, Jakarta Selatan</p>
+                    <p>Telp: (021) 7251234</p>
+                </div>
+                <div class="branch-card">
+                    <h4>Bandung</h4>
+                    <p>Jl. Soekarno Hatta No. 586, Bandung</p>
+                    <p>Telp: (022) 7561234</p>
+                </div>
+                <div class="branch-card">
+                    <h4>Surabaya</h4>
+                    <p>Jl. Raya Darmo No. 68, Surabaya</p>
+                    <p>Telp: (031) 5678123</p>
+                </div>
+                <div class="branch-card">
+                    <h4>Medan</h4>
+                    <p>Jl. Gatot Subroto No. 235, Medan</p>
+                    <p>Telp: (061) 4567890</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer sama seperti di index.html -->
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
